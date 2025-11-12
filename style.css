@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: olivedrab;
+    padding: 15px 40px;
+color: #fefae0;;
+opacity: 0.9;
+
+}
+
+/* .logo {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+} */
+.loader-text {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fefae0;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.2; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: yellow;
+}
+.hero-content{
+    margin-top: -195px !important;
+}
+
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/antoine-beauvillain-0Kw44ElHN3A-unsplash.jpg) center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+/* .hero-content p {
+    font-size: 19.2px;
+    margin-bottom: 25px;
+} */
+ .hero p {
+  color: #fefae0; /* thoda soft white */
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+   margin-bottom: 25px;
+}
+.hero span {
+  color: #dda15e; /* Olive-theme highlight */
+  font-weight: 800;
+}
+.p h3{
+    font-size: 28px;
+}
+.btn {
+    /* background-color: #2e6b34;
+    color: white; */
+   background: linear-gradient(135deg, #6B8E23, #DDA15E);
+color: #fff;
+border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+  
+
+.btn:hover{
+/* background: linear-gradient(135deg, #DDA15E, #6B8E23); /* reverse gradient */
+  /* transform: scale(1.07);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3); */ 
+   box-shadow: 0 0 20px rgba(221,161,94,0.6); /* golden glow */
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+
+
+}
+
+
+
